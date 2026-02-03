@@ -117,10 +117,8 @@ public class MyTestCases {
 		newsletter.click();
 		continueButton.click();
 
-<<<<<<< HEAD
-		// Address
-//		
-=======
+
+		
 //		Policy Agreement Check	
 		WebElement privcayPolicy = driver.findElement(By.id("AccountFrm_agree"));
 		privcayPolicy.click();
@@ -129,8 +127,6 @@ public class MyTestCases {
 		WebElement Continue = driver.findElement(By.xpath("//*[@id=\"AccountFrm\"]/div[5]/div/div/button"));
 		Continue.click();
 		
-
->>>>>>> ab2a685d3c32d005686cd5749933bb962c5ceda3
 
 	}
 }
