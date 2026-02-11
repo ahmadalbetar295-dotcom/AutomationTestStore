@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-03T23:04:26 EET" name="Default suite" finished-at="2026-02-03T23:04:43 EET" duration-ms="16182">
+  <suite started-at="2026-02-11T23:04:23 EET" name="Default suite" finished-at="2026-02-11T23:04:48 EET" duration-ms="24698">
     <groups>
     </groups>
-    <test started-at="2026-02-03T23:04:26 EET" name="Default test" finished-at="2026-02-03T23:04:43 EET" duration-ms="16182">
+    <test started-at="2026-02-11T23:04:23 EET" name="Default test" finished-at="2026-02-11T23:04:48 EET" duration-ms="24698">
       <class name="LogInPage.MyTestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:LogInPage.MyTestCases@13518f37]" started-at="2026-02-03T23:04:26 EET" name="mySetup" finished-at="2026-02-03T23:04:34 EET" duration-ms="8017" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:LogInPage.MyTestCases@3a6f2de3]" started-at="2026-02-11T23:04:23 EET" name="mySetup" finished-at="2026-02-11T23:04:26 EET" duration-ms="2434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="signUp()[pri:1, instance:LogInPage.MyTestCases@13518f37]" started-at="2026-02-03T23:04:34 EET" name="signUp" finished-at="2026-02-03T23:04:43 EET" duration-ms="8118" status="PASS">
+        <test-method signature="signUp()[pri:1, instance:LogInPage.MyTestCases@3a6f2de3]" started-at="2026-02-11T23:04:26 EET" name="signUp" finished-at="2026-02-11T23:04:35 EET" duration-ms="9174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
+        <test-method signature="logOut()[pri:2, instance:LogInPage.MyTestCases@3a6f2de3]" started-at="2026-02-11T23:04:35 EET" name="logOut" finished-at="2026-02-11T23:04:39 EET" duration-ms="4222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="logIn()[pri:3, instance:LogInPage.MyTestCases@3a6f2de3]" started-at="2026-02-11T23:04:39 EET" name="logIn" finished-at="2026-02-11T23:04:42 EET" duration-ms="3197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="addToCart()[pri:4, instance:LogInPage.MyTestCases@3a6f2de3]" started-at="2026-02-11T23:04:42 EET" name="addToCart" finished-at="2026-02-11T23:04:48 EET" duration-ms="5616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
       </class> <!-- LogInPage.MyTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
